@@ -31,7 +31,7 @@ spec:
             - name: PROTOCOLS
             - name: LOG_LEVEL
               value: debug
-          image: quay.io/repository/nedspnt/express-sample-app
+          image: quay.io/nedspnt/express-sample-app
           imagePullPolicy: IfNotPresent
           livenessProbe:
             failureThreshold: 3
